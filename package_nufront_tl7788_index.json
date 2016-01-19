@@ -1,29 +1,29 @@
 {
    "packages":[
       {
-         "name":"RFduino",
-         "maintainer":"RFduino",
-         "websiteURL":"http://www.rfduino.com",
-         "email":"support@rfduino.com",
+         "name":"Nufront",
+         "maintainer":"Nufront Company",
+         "websiteURL":"http://www.nufront.com",
+         "email":"hunianhang@nufront.com",
          "help":{
-            "online":"http://forum.rfduino.com"
+            "online":"http://www.nufront.com"
          },
          "platforms":[
             {
-               "name": "RFduino Boards",
-               "architecture": "RFduino",
-               "version": "2.3",
+               "name": "Nufront TL7788 Boards",
+               "architecture": "Nufront",
+               "version": "1.0.0",
                "category": "Arduino",
-               "url": "http://www.rfdigital.com/wp-content/uploads/2014/03/RFduino_2.3.zip",
-               "archiveFileName": "RFduino_2.3.zip",
-               "checksum": "SHA-256:b0dd7bf82ad7e98c8650c71603b70ddc5877c191ab149d858dfa81d2fbb6ac4d",
-               "size": "37676704",
+               "url": "https://github.com/hunianhang/arduino_nufront/archive/v1.0.0.zip",
+               "archiveFileName": "arduino_nufront-1.0.0.zip",
+               "checksum": "SHA-256:5fe82afedf7fe5e32151c938c15a1496d8e5f4dbc2e9d8d3b9ef2210aa0114e4",
+               "size": "770417",
                "help":{
-                  "online":"http://forum.rfduino.com"
+                  "online":"http://www.nufront.com"
                },
                "boards": [
                   {
-                     "name": "RFduino"
+                     "name": "Nufront TL7788 Kit"
                   }
                ],
                "toolsDependencies": [
