@@ -12,9 +12,9 @@
             {
                "name": "Nufront TL7788 Boards",
                "architecture": "Nufront",
-               "version": "1.0.0",
+               "version": "1.0.1",
                "category": "Arduino",
-               "url": "https://github.com/hunianhang/arduino_nufront/archive/v1.0.0.zip",
+               "url": "https://github.com/hunianhang/arduino_nufront/releases/download/v1.0.0/arduino_nufront-1.0.0.zip",
                "archiveFileName": "arduino_nufront-1.0.0.zip",
                "checksum": "SHA-256:5fe82afedf7fe5e32151c938c15a1496d8e5f4dbc2e9d8d3b9ef2210aa0114e4",
                "size": "770417",
