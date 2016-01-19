@@ -1,38 +1,122 @@
-{
+ {
   "packages": [
     {
-      "name": "Nufront",
-      "maintainer": "Nufront company",
-      "websiteURL": "http://www.nufront.com/",
+      "name": "LinkIt",
+      "maintainer": "Seeed Studio and MediaTek Labs",
+      "websiteURL": "http://labs.mediatek.com/linkitone",
       "help": {
-        "online": "http://www.nufront.com/"
+        "online": "http://labs.mediatek.com/forums/forums/show/11.page"
       },
       "platforms": [
         {
-          "name": "Nufront TL7788 Kit",
+          "name": "LinkIt ONE",
           "architecture": "arm",
-          "version": "1.0.0",
+          "version": "1.1.17",
           "category": "Contributed",
           "help": {
-            "online": "http://www.nufront.com/"
+            "online": "http://labs.mediatek.com/forums/forums/show/11.page"
           },
-          "url": "https://github.com/hunianhang/arduino_nufront/archive/v1.0.0.zip",
-          "archiveFileName": "arduino_nufront-1.0.0.zip",
-          "checksum": "SHA-256:cb0d7ab40ccb474228148c10e4c8ee33342be2cc8462f4e7e213232554b97076",
-          "size": "770417",
+          "url": "http://download.labs.mediatek.com/mediatek_linkit_sdk_(for_arduino_1.6)-1.1.17.zip",
+          "archiveFileName": "mediatek_linkit_sdk_(for_arduino_1.6)-1.1.17.zip",
+          "checksum": "SHA-256:4fffdc3be87c358a9bc1a59bb9e5a38dd2de495d1c378268bb861b5be830aba7",
+          "size": "750135",
           "boards": [
-            {"name": "Nufront TL7788 Kit"}
+            {"name": "LinkIt ONE"}
           ],
           "toolsDependencies": [
             {
-              "packager": "Nufront",
+              "packager": "LinkIt",
               "name": "arm-none-eabi-gcc",
               "version": "4.8.3-2014q1"
             },
             {
-              "packager": "nufront",
+              "packager": "LinkIt",
               "name": "linkit_tools",
               "version": "1.1.17"
+            }
+          ]
+        },
+        {
+          "name": "LinkIt ONE",
+          "architecture": "arm",
+          "version": "1.1.9",
+          "category": "Contributed",
+          "help": {
+            "online": "http://labs.mediatek.com/forums/forums/show/11.page"
+          },
+          "url": "http://download.labs.mediatek.com/mediatek_linkit_sdk_(for_arduino_1.6)-1.1.09.zip",
+          "archiveFileName": "mediatek_linkit_sdk_(for_arduino_1.6)-1.1.09.zip",
+          "checksum": "SHA-256:7c04866868e24e0bd9e8c03995833b9ec53aeb548300a143b1cf3d42763555e9",
+          "size": "748739",
+          "boards": [
+            {"name": "LinkIt ONE"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "LinkIt",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "LinkIt",
+              "name": "linkit_tools",
+              "version": "1.1.9"
+            }
+          ]
+        },
+        {
+          "name": "LinkIt ONE",
+          "architecture": "arm",
+          "version": "1.1.11",
+          "category": "Contributed",
+          "help": {
+            "online": "http://labs.mediatek.com/forums/forums/show/11.page"
+          },
+          "url": "http://download.labs.mediatek.com/mediatek_linkit_sdk_(for_arduino_1.6)-1.1.11.zip",
+          "archiveFileName": "mediatek_linkit_sdk_(for_arduino_1.6)-1.1.11.zip",
+          "checksum": "SHA-256:34cea04bb72efe82c88adc9da2829576071c6db68ce2f8932b58ca642132422a",
+          "size": "748707",
+          "boards": [
+            {"name": "LinkIt ONE"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "LinkIt",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "LinkIt",
+              "name": "linkit_tools",
+              "version": "1.1.11"
+            }
+          ]
+        },
+        {
+          "name": "LinkIt ONE",
+          "architecture": "arm",
+          "version": "1.1.14",
+          "category": "Contributed",
+          "help": {
+            "online": "http://labs.mediatek.com/forums/forums/show/11.page"
+          },
+          "url": "http://download.labs.mediatek.com/mediatek_linkit_sdk_(for_arduino_1.6)-1.1.14.zip",
+          "archiveFileName": "mediatek_linkit_sdk_(for_arduino_1.6)-1.1.14.zip",
+          "checksum": "SHA-256:024fd7fed44df2b2a698b6da3e69a92bc37fdea4850fc84a86684f50dbbff60b",
+          "size": "749910",
+          "boards": [
+            {"name": "LinkIt ONE"}
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "LinkIt",
+              "name": "arm-none-eabi-gcc",
+              "version": "4.8.3-2014q1"
+            },
+            {
+              "packager": "LinkIt",
+              "name": "linkit_tools",
+              "version": "1.1.14"
             }
           ]
         }
@@ -89,6 +173,66 @@
               "url": "http://download.labs.mediatek.com/mediatek_linkit_sdk_tool_osx-1.1.17.tar.gz",
               "checksum": "SHA-256:de53967e4a2270f80ff2f3b48192b8bc09c79558bcaa2c4dd06c3933956f2e2c",
               "size": "16408710"
+            }
+          ]
+        },
+        {
+          "name": "linkit_tools",
+          "version": "1.1.9",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "archiveFileName": "mediatek_linkit_sdk_tool_windows-1.1.09.zip",
+              "url": "http://download.labs.mediatek.com/mediatek_linkit_sdk_tool_windows-1.1.09.zip",
+              "checksum": "SHA-256:3fa9c63b5aac14cac1230a0b1492322383b96f450e7de4e87d4ea0d347288156",
+              "size": "15615990"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "archiveFileName": "mediatek_linkit_sdk_tool_osx-1.1.09.tar.gz",
+              "url": "http://download.labs.mediatek.com/mediatek_linkit_sdk_tool_osx-1.1.09.tar.gz",
+              "checksum": "SHA-256:d7b2d0dfdb6fda298c085611bceba18ea920ea189dd9faf77916a7c50ae7a261",
+              "size": "15652784"
+            }
+          ]
+        },
+        {
+          "name": "linkit_tools",
+          "version": "1.1.11",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "archiveFileName": "mediatek_linkit_sdk_tool_windows-1.1.11.zip",
+              "url": "http://download.labs.mediatek.com/mediatek_linkit_sdk_tool_windows-1.1.11.zip",
+              "checksum": "SHA-256:d077b5d893384780a1afbe008497880f19aee55665227af07c4a40db21d40500",
+              "size": "15672716"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "archiveFileName": "mediatek_linkit_sdk_tool_osx-1.1.11.tar.gz",
+              "url": "http://download.labs.mediatek.com/mediatek_linkit_sdk_tool_osx-1.1.11.tar.gz",
+              "checksum": "SHA-256:ed7f71b8362633acb2dd590c95e214eca5d121107550056715da1c9385fdf487",
+              "size": "15652709"
+            }
+          ]
+        },
+        {
+          "name": "linkit_tools",
+          "version": "1.1.14",
+          "systems": [
+            {
+              "host": "i686-mingw32",
+              "archiveFileName": "mediatek_linkit_sdk_tool_windows-1.1.14.zip",
+              "url": "http://download.labs.mediatek.com/mediatek_linkit_sdk_tool_windows-1.1.14.zip",
+              "checksum": "SHA-256:9062c5e113f3f2ba47fa4500d0e71e3d543f482355e0f9bd376869e5b954b1ce",
+              "size": "16372785"
+            },
+            {
+              "host": "x86_64-apple-darwin",
+              "archiveFileName": "mediatek_linkit_sdk_tool_osx-1.1.14.tar.gz",
+              "url": "http://download.labs.mediatek.com/mediatek_linkit_sdk_tool_osx-1.1.14.tar.gz",
+              "checksum": "SHA-256:f68e93ce6a609b4d2719785a2794a288a1a5aee4f175148b57eef766a57f265f",
+              "size": "16408506"
             }
           ]
         }
