@@ -1,7 +1,7 @@
 {
   "packages": [
     {
-      "name": "LinkIt",
+      "name": "Nufront",
       "maintainer": "Nufront company",
       "websiteURL": "http://www.nufront.com/",
       "help": {
@@ -18,8 +18,8 @@
           },
           "url": "https://github.com/hunianhang/arduino_nufront/archive/v1.0.0.zip",
           "archiveFileName": "arduino_nufront-1.0.0.zip",
-          "checksum": "SHA-256:5FE82AFEDF7FE5E32151C938C15A1496D8E5F4DBC2E9D8D3B9EF2210AA0114E4",
-          "size": "774144",
+          "checksum": "SHA-256:cb0d7ab40ccb474228148c10e4c8ee33342be2cc8462f4e7e213232554b97076",
+          "size": "770417",
           "boards": [
             {"name": "Nufront TL7788 Kit"}
           ],
