@@ -28,12 +28,12 @@
                ],
                "toolsDependencies": [
                   {
-                     "packager": "RFduino",
+                     "packager": "TL7788",
                      "name": "arm-none-eabi-gcc",
                      "version": "4.8.3-2014q1"
                   },
                   {
-                     "packager": "RFduino",
+                     "packager": "TL7788",
                      "name": "RFDLoader",
                      "version": "1.5"
                   }
