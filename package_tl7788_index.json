@@ -11,7 +11,7 @@
          "platforms":[
             {
                "name": "TL7788 Boards",
-               "architecture": "RFduino",
+               "architecture": "arm",
                "version": "2.3.1",
                "category": "Arduino",
                "url": "http://www.rfdigital.com/wp-content/uploads/2014/03/RFduino_2.3.1.zip",
@@ -23,17 +23,17 @@
                },
                "boards": [
                   {
-                     "name": "RFduino"
+                     "name": "TL7788"
                   }
                ],
                "toolsDependencies": [
                   {
-                     "packager": "RFduino",
+                     "packager": "TL7788",
                      "name": "arm-none-eabi-gcc",
                      "version": "4.8.3-2014q1"
                   },
                   {
-                     "packager": "RFduino",
+                     "packager": "TL7788",
                      "name": "RFDLoader",
                      "version": "1.5"
                   }
