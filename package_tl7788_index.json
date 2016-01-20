@@ -14,10 +14,10 @@
                "architecture": "arm",
                "version": "1.0.3",
                "category": "Arduino",
-               "url": "https://github.com/hunianhang/test_package/releases/download/v1.0.2/tl7788_1.0.2.zip",
-               "archiveFileName": "tl7788_1.0.2.zip",
-               "checksum": "SHA-256:36dc66c203f523756ba3c9b58e52b9b0be5f8a589e6c0fdf7ce0e7cb7704f9de",
-               "size": "37857168",
+               "url": "https://github.com/hunianhang/test_package/releases/download/v1.0.3/tl7788_1.0.3.zip",
+               "archiveFileName": "tl7788_1.0.3.zip",
+               "checksum": "SHA-256:7b0116448c900a19d641b0ac72aef9863999b1adcae3e7b191d6e389789c0e7d",
+               "size": "37853645",
                "help":{
                   "online":"http://www.nufront.com"
                },
