@@ -1,8 +1,8 @@
 {
    "packages":[
       {
-         "name":"TL7788",
-         "maintainer":"TL7788",
+         "name":"RFduino",
+         "maintainer":"RFduino",
          "websiteURL":"http://www.nufront.com",
          "email":"hunianhang@nufront.com",
          "help":{
@@ -11,7 +11,7 @@
          "platforms":[
             {
                "name": "TL7788 Boards",
-               "architecture": "TL7788",
+               "architecture": "RFduino",
                "version": "2.3.1",
                "category": "Arduino",
                "url": "http://www.rfdigital.com/wp-content/uploads/2014/03/RFduino_2.3.1.zip",
@@ -23,17 +23,17 @@
                },
                "boards": [
                   {
-                     "name": "TL7788"
+                     "name": "RFduino"
                   }
                ],
                "toolsDependencies": [
                   {
-                     "packager": "TL7788",
+                     "packager": "RFduino",
                      "name": "arm-none-eabi-gcc",
                      "version": "4.8.3-2014q1"
                   },
                   {
-                     "packager": "TL7788",
+                     "packager": "RFduino",
                      "name": "RFDLoader",
                      "version": "1.5"
                   }
