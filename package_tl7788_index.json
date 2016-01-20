@@ -12,7 +12,7 @@
             {
                "name": "TL7788 Boards",
                "architecture": "arm",
-               "version": "2.3.1",
+               "version": "1.0.3",
                "category": "Arduino",
                "url": "https://github.com/hunianhang/test_package/releases/download/v1.0.2/tl7788_1.0.2.zip",
                "archiveFileName": "tl7788_1.0.2.zip",
@@ -34,8 +34,8 @@
                   },
                   {
                      "packager": "TL7788",
-                     "name": "RFDLoader",
-                     "version": "1.5"
+                     "name": "NFLoader",
+                     "version": "1.0.0"
                   }
                ]
             }
@@ -77,36 +77,36 @@
                ]
             },
             {
-               "name":"RFDLoader",
-               "version":"1.5",
+               "name":"NFLoader",
+               "version":"1.0.0",
                "systems":[
                   {
                      "host":"i686-mingw32",
-                     "archiveFileName":"RFDLoader_1.5_win.zip",
-                     "url":"http://www.rfdigital.com/wp-content/uploads/2014/03/RFDLoader_1.5_win.zip",
-                     "checksum":"SHA-256:10440b2a39eb8d4bacc53c9342968d85e4d13dc9c412b249bd925fdce8021e9d",
-                     "size":"19151"
+                     "archiveFileName":"NFLoader_1.0.0_win.zip",
+                     "url":"https://github.com/hunianhang/NFLoader/releases/download/v1.0.0/NFLoader_1.0.0_win.zip",
+                     "checksum":"SHA-256:f96bebc8d73dd75c3254e36df6831b09b1581d06e7c6c54f40a08f6ab7bed0e2",
+                     "size":"19145"
                   },
                   {
                      "host":"x86_64-apple-darwin",
-                     "archiveFileName":"RFDLoader_1.5_osx.tar.gz",
-                     "url":"http://www.rfdigital.com/wp-content/uploads/2014/03/RFDLoader_1.5_osx.tar.gz",
-                     "checksum":"SHA-256:122507e32fcc0ba3e6fde41d9fa7cc5f634354b93da76c2cbfe9485800bb5e6e",
-                     "size":"14839"
+                     "archiveFileName":"NFLoader_1.0.0_osx.zip",
+                     "url":"https://github.com/hunianhang/NFLoader/releases/download/v1.0.0/NFLoader_1.0.0_osx.zip",
+                     "checksum":"SHA-256:76ac6a14230e70dd90bf8c1c8d76e139c9f69fb086ad57be193c2e9b9086ed6d",
+                     "size":"16287"
                   },
                   {
                      "host":"x86_64-pc-linux-gnu",
-                     "archiveFileName":"RFDLoader_1.5_linux64.tar.gz",
-                     "url":"http://www.rfdigital.com/wp-content/uploads/2014/03/RFDLoader_1.5_linux64.tar.gz",
-                     "checksum":"SHA-256:507331e7afe16091740516b5ce0197d33388e404a341161c83d7e9ed155d5b91",
-                     "size":"7700"
+                     "archiveFileName":"NFLoader_1.0.0_linux64.zip",
+                     "url":"https://github.com/hunianhang/NFLoader/releases/download/v1.0.0/NFLoader_1.0.0_linux64.zip",
+                     "checksum":"SHA-256:9721ec8d9db3e2364c257937e79e3b7d9af82f7c03902b03bb21c52dc7b8c705",
+                     "size":"7857"
                   },
                   {
                      "host":"i686-pc-linux-gnu",
-                     "archiveFileName":"RFDLoader_1.5_linux32.tar.gz",
-                     "url":"http://www.rfdigital.com/wp-content/uploads/2014/03/RFDLoader_1.5_linux32.tar.gz",
-                     "checksum":"SHA-256:71fe4fa94604737a73f8c660fe8e9f921a1d922f7fd93f4364514d19aeb2bf15",
-                     "size":"7141"
+                     "archiveFileName":"NFLoader_1.0.0_linux32.zip",
+                     "url":"https://github.com/hunianhang/NFLoader/releases/download/v1.0.0/NFLoader_1.0.0_linux32.zip",
+                     "checksum":"SHA-256:2d17fdcdc0cbd6e365340a461fb587d8656499f4c130132588818f32761fb3af",
+                     "size":"7340"
                   }
                ]
             }
