@@ -1,17 +1,17 @@
 {
    "packages":[
       {
-         "name":"RFduino",
-         "maintainer":"RFduino",
-         "websiteURL":"http://www.rfduino.com",
-         "email":"support@rfduino.com",
+         "name":"TL7788",
+         "maintainer":"TL7788",
+         "websiteURL":"http://www.nufront.com",
+         "email":"hunianhang@nufront.com",
          "help":{
-            "online":"http://forum.rfduino.com"
+            "online":"http://www.nufront.com"
          },
          "platforms":[
             {
-               "name": "RFduino Boards",
-               "architecture": "RFduino",
+               "name": "TL7788 Boards",
+               "architecture": "TL7788",
                "version": "2.3.1",
                "category": "Arduino",
                "url": "http://www.rfdigital.com/wp-content/uploads/2014/03/RFduino_2.3.1.zip",
@@ -19,11 +19,11 @@
                "checksum": "SHA-256:b1c8dec3a2a3efe0db2c18ce911b88002d4b74849dd593475d26360a92b39468",
                "size": "36962261",
                "help":{
-                  "online":"http://forum.rfduino.com"
+                  "online":"http://www.nufront.com"
                },
                "boards": [
                   {
-                     "name": "RFduino"
+                     "name": "TL7788"
                   }
                ],
                "toolsDependencies": [
