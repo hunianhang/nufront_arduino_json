@@ -14,10 +14,10 @@
                "architecture": "arm",
                "version": "2.3.1",
                "category": "Arduino",
-               "url": "https://github.com/hunianhang/test_package/releases/download/v1.0.1/tl7788_1.0.1.zip",
-               "archiveFileName": "tl7788_1.0.1.zip",
-               "checksum": "SHA-256:bbf94b814586c95150307b0365e8f7c3b4bfbe226922639f388de89c70e9ed07",
-               "size": "37857169",
+               "url": "https://github.com/hunianhang/test_package/releases/download/v1.0.2/tl7788_1.0.2.zip",
+               "archiveFileName": "tl7788_1.0.2.zip",
+               "checksum": "SHA-256:36dc66c203f523756ba3c9b58e52b9b0be5f8a589e6c0fdf7ce0e7cb7704f9de",
+               "size": "37857168",
                "help":{
                   "online":"http://www.nufront.com"
                },
@@ -28,12 +28,12 @@
                ],
                "toolsDependencies": [
                   {
-                     "packager": "RFduino",
+                     "packager": "TL7788",
                      "name": "arm-none-eabi-gcc",
                      "version": "4.8.3-2014q1"
                   },
                   {
-                     "packager": "RFduino",
+                     "packager": "TL7788",
                      "name": "RFDLoader",
                      "version": "1.5"
                   }
