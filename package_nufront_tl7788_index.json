@@ -28,14 +28,14 @@
                ],
                "toolsDependencies": [
                   {
-                     "packager": "RFduino",
+                     "packager": "tl7788",
                      "name": "arm-none-eabi-gcc",
                      "version": "4.8.3-2014q1"
                   },
                   {
-                     "packager": "RFduino",
-                     "name": "RFDLoader",
-                     "version": "1.5"
+                     "packager": "tl7788",
+                     "name": "linkit_tools",
+                     "version": "1.1.14"
                   }
                ]
             }
@@ -76,7 +76,7 @@
                ]
             },
             {
-               "name":"RFDLoader",
+               "name":"linkit_tools",
                "version":"1.2",
                "systems":[
                   {
@@ -110,38 +110,24 @@
                ]
             },
             {
-               "name":"RFDLoader",
-               "version":"1.5",
+               "name":"linkit_tools",
+               "version":"1.1.14",
                "systems":[
-                  {
-                     "host":"i686-mingw32",
-                     "archiveFileName":"RFDLoader_1.5_win.zip",
-                     "url":"http://www.rfdigital.com/wp-content/uploads/2014/03/RFDLoader_1.5_win.zip",
-                     "checksum":"SHA-256:10440b2a39eb8d4bacc53c9342968d85e4d13dc9c412b249bd925fdce8021e9d",
-                     "size":"19151"
-                  },
-                  {
-                     "host":"x86_64-apple-darwin",
-                     "archiveFileName":"RFDLoader_1.5_osx.tar.gz",
-                     "url":"http://www.rfdigital.com/wp-content/uploads/2014/03/RFDLoader_1.5_osx.tar.gz",
-                     "checksum":"SHA-256:122507e32fcc0ba3e6fde41d9fa7cc5f634354b93da76c2cbfe9485800bb5e6e",
-                     "size":"14839"
-                  },
-                  {
-                     "host":"x86_64-pc-linux-gnu",
-                     "archiveFileName":"RFDLoader_1.5_linux64.tar.gz",
-                     "url":"http://www.rfdigital.com/wp-content/uploads/2014/03/RFDLoader_1.5_linux64.tar.gz",
-                     "checksum":"SHA-256:507331e7afe16091740516b5ce0197d33388e404a341161c83d7e9ed155d5b91",
-                     "size":"7700"
-                  },
-                  {
-                     "host":"i686-pc-linux-gnu",
-                     "archiveFileName":"RFDLoader_1.5_linux32.tar.gz",
-                     "url":"http://www.rfdigital.com/wp-content/uploads/2014/03/RFDLoader_1.5_linux32.tar.gz",
-                     "checksum":"SHA-256:71fe4fa94604737a73f8c660fe8e9f921a1d922f7fd93f4364514d19aeb2bf15",
-                     "size":"7141"
-                  }
-               ]
+               {
+                  "host": "i686-mingw32",
+                  "archiveFileName": "mediatek_linkit_sdk_tool_windows-1.1.14.zip",
+                  "url": "http://download.labs.mediatek.com/mediatek_linkit_sdk_tool_windows-1.1.14.zip",
+                  "checksum": "SHA-256:9062c5e113f3f2ba47fa4500d0e71e3d543f482355e0f9bd376869e5b954b1ce",
+                  "size": "16372785"
+               },
+               {
+                  "host": "x86_64-apple-darwin",
+                  "archiveFileName": "mediatek_linkit_sdk_tool_osx-1.1.14.tar.gz",
+                  "url": "http://download.labs.mediatek.com/mediatek_linkit_sdk_tool_osx-1.1.14.tar.gz",
+                  "checksum": "SHA-256:f68e93ce6a609b4d2719785a2794a288a1a5aee4f175148b57eef766a57f265f",
+                  "size": "16408506"
+               }
+             ]
             }
          ]
       }
