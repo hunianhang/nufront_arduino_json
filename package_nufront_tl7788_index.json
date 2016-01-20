@@ -14,10 +14,10 @@
                "architecture": "Nufront",
                "version": "1.0.1",
                "category": "Arduino",
-               "url": "https://github.com/hunianhang/arduino_nufront/releases/download/v1.0.0/arduino_nufront-1.0.0.zip",
+               "url": "https://github.com/hunianhang/arduino_nufront/releases/download/v1.1.0/arduino_nufront_1.1.0.zip",
                "archiveFileName": "arduino_nufront-1.0.0.zip",
-               "checksum": "SHA-256:5fe82afedf7fe5e32151c938c15a1496d8e5f4dbc2e9d8d3b9ef2210aa0114e4",
-               "size": "770417",
+               "checksum": "SHA-256:e0f72994b7ac570a058ce95b5b66dc2038a4c69daffc2a5407d0e249901d96a4",
+               "size": "2199567",
                "help":{
                   "online":"http://www.nufront.com"
                },
